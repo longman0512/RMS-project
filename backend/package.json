@@ -1,0 +1,39 @@
+{
+  "name": "2019-10-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "geoip-lite": "^1.4.2",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.17.1",
+    "node-datetime": "^2.1.2",
+    "public-ip": "^4.0.3",
+    "redis": "^3.0.2",
+    "redis-delete-pattern": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/http-errors": "^1.8.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mysql": "^2.15.17",
+    "@types/redis": "^2.8.28",
+    "nodemon": "^1.19.3"
+  }
+}

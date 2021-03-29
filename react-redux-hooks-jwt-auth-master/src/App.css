@@ -1,0 +1,239 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.card-header-undefined {
+  padding:15px;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.ml-auto{
+  margin-left:auto;
+}
+
+.home-nav .nav-link {
+  display: block;
+  padding: .3rem 1rem; 
+}
+
+.table{   /* Just for the demo          */
+  overflow-y: auto;    /* Trigger vertical scroll    */
+  overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+.react-bootstrap-table-pagination{
+  margin-top:10px;
+}
+
+hr {
+  margin-top: 1px;
+  border: 0;
+  /* border-top: 1px solid rgba(0,0,0,.1); */
+}
+
+.react-bootstrap-table {
+  overflow: auto;
+}
+
+.table thead th {
+  position: sticky;
+  top: -0.5px;
+  background: white;
+  vertical-align: middle;
+}
+
+.table td:not(.reset-expansion-style), .table th{
+  padding: .40rem;
+  text-align: center;
+}
+
+.expand-cell-header, .expand-cell{
+  cursor: pointer;
+} 
+
+.react-bootstrap-table th[data-row-selection] {
+  min-width: 50px; 
+  text-align: center;
+}
+
+.history-path span,.nav-link{
+  padding:0;
+  padding-left:10px;
+}
+
+.history-path div:first-child{
+  padding:0;
+}
+
+.title-style{
+  margin: 16px 0;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.width-50{
+  width: 50%;
+}
+
+.pad-left-0{
+  padding-left: 0;
+}
+
+.btn-actions .btn{
+  padding: .375rem .475rem;
+}
+
+.custom-search{
+  display: flex;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.custom-search-main{
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.custom-search-main .btn-close{
+  color:#b3b3b3;
+}
+
+.custom-search-main .btn-close:hover{
+  color:#8f8f8f;
+}
+
+.custom-search .search-label{
+  width: 100%;
+}
+
+.custom-search label{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.custom-search:focus-within{
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.custom-search .form-control:focus, .form-control, .btn, .btn:focus{
+  border:none;
+  outline: 0;
+  box-shadow:none;
+}
+
+.react-bootstrap-table-pagination-total{
+  margin-left:10px;
+}
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  margin-top: 10px;
+}
+
+.navbar-plus .nav-link:before{
+  content: "\f067";
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* style for the stick, fixed column*/
+.react-bootstrap-table > table > tbody > tr > div:last-child, 
+.react-bootstrap-table > table > thead > tr:last-child > th:last-child, td:first-child {
+background-color: white;
+position: sticky;
+right: 0;
+z-index: 2;
+}
+
+/*keeping columns aligned during scrolling*/
+.react-bootstrap-table {
+max-width: 100%;
+min-height: 350px;
+overflow: overlay !important;
+}
+
+.toolbar{
+  min-height: 60px;
+  align-items: center;
+}
+
+.toolbar p{
+  padding: .375rem .75rem;
+}
+
+.allTable{
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-top:15px;
+}
+
+.MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"],
+ .MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  padding:6px;
+}
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1370px;
+  }
+}
